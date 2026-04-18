@@ -7,20 +7,18 @@ use Illuminate\Support\Facades\Schema;
 return new class extends Migration
 {
     /**
-     * Jalankan migrasi untuk membuat tabel produk.
+     * Run the migrations.
      */
     public function up(): void
     {
         Schema::create('products', function (Blueprint $table) {
             $table->id();
-            $table->string('name'); // Nama Produk
-            $table->integer('price'); // Harga Produk
             $table->timestamps();
         });
     }
 
     /**
-     * Batalkan migrasi (Hapus tabel).
+     * Reverse the migrations.
      */
     public function down(): void
     {
