@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Schema;
 return new class extends Migration
 {
     /**
-     * Jalankan migrasi untuk membuat tabel produk
+     * Jalankan migrasi untuk membuat tabel produk.
      */
     public function up(): void
     {
