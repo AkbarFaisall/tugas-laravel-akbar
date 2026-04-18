@@ -64,7 +64,7 @@ class ProductController extends Controller
     }
 
     /**
-     * Hapus Data (Delete)
+     * Hapus Data (Delete).
      */
     public function destroy($id): JsonResponse
     {

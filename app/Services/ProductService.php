@@ -13,7 +13,7 @@ class ProductService
     public function storeProduct(array $data)
     {
         try {
-            // Proses simpan ke database
+            // Proses simpan ke database.
             return Product::create($data);
         } catch (Exception $e) {
             // Melempar error jika gagal

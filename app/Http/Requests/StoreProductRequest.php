@@ -7,7 +7,7 @@ use Illuminate\Foundation\Http\FormRequest;
 class StoreProductRequest extends FormRequest
 {
     /**
-     * Izinkan semua user melakukan request ini.
+     * Izinkan semua user melakukan request ini
      */
     public function authorize(): bool
     {
