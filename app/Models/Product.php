@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Product extends Model
 {
     use HasFactory;
+
+    // Menentukan kolom mana saja yang boleh diisi
+    protected $fillable = ['name', 'price'];
 }
